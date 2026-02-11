@@ -16,9 +16,45 @@ const Trust = () => {
             stars: 5
         },
         {
+            name: "Maroof Farooqui",
+            car: "Mercedes C43 Owner",
+            text: "The most honest mechanic I’ve seen in Dubai great service, extremely knowledgeable and is not money oriented. He will tell you the true and will never overcharge like any other garbage I’ve been in Dubai for 6 years. I am now so happy for finding Mr Sajjad’s and his team.",
+            stars: 5
+        },
+        {
+            name: "Ejaz",
+            car: "Car Owner",
+            text: "RPM Auto Garage LLC provides excellent car service with a high level of professionalism. The staff is knowledgeable, honest, and takes the time to explain the work clearly. The quality of repairs and attention to detail really stand out.",
+            stars: 5
+        },
+        {
+            name: "Ch Imran",
+            car: "Bentley Owner",
+            text: "I had recently air suspension issue on my bentley i go to other garage they give me coat around 10000 but when I came to RPM auto garage, they just fixed my car only in 4000 thank you so much Mr sajjad I will recommend this garage to my friends",
+            stars: 5
+        },
+        {
             name: "Akram Mohammed",
             car: "Audi Owner",
             text: "Anil and Sanjay are great folks. They understand the concerns of their clients and provide the best advise. I received genuine advise with my Audi and also, avoided unnecessary repair cost. You have bagged a long term customer!",
+            stars: 5
+        },
+        {
+            name: "Satish Kumar",
+            car: "Car Owner",
+            text: "That is the best garage in dubai From my experience! Professinal, clean, welcoming and located outside any busy areas! And decent prices.",
+            stars: 5
+        },
+        {
+            name: "Fadil Hamadallah",
+            car: "Car Owner",
+            text: "Professional team, Commitment to the appointment, Very good service and price. The Best in DIP area.",
+            stars: 5
+        },
+        {
+            name: "Aamir Mirza",
+            car: "Car Owner",
+            text: "Took a cars to garage and I have vary good experience owner is vary sincere and price is vary reasonable a bit far from Marina it's worth it.",
             stars: 5
         }
     ];

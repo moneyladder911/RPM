@@ -11,18 +11,48 @@
 }
 
 .reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    overflow-x: auto;
     gap: 2rem;
+    padding: 1rem 0 2rem 0;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Custom scrollbar styling */
+.reviews-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.reviews-grid::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+    border-radius: 4px;
+}
+
+.reviews-grid::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+.reviews-grid::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
 }
 
 .review-card {
+    min-width: 350px;
+    max-width: 350px;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--border);
     padding: 2rem;
     border-radius: 12px;
     text-align: left;
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .review-card:hover {
