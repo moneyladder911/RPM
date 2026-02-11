@@ -31,6 +31,16 @@ const Hero = () => {
                         Book Your Free Inspection
                     </a>
                 </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 0.8 }}
+                    transition={{ duration: 1, delay: 0.8 }}
+                    className="trust-indicator"
+                >
+                    <span className="stars">★★★★★</span>
+                    <span>Rated 4.9/5 by 500+ Happy Customers</span>
+                </motion.div>
             </div>
         </section>
     );

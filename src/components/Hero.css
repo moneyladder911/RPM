@@ -21,6 +21,10 @@
 }
 
 .hero-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
     position: relative;
     z-index: 2;
     display: flex;
@@ -31,21 +35,45 @@
 
 .hero-title {
     font-size: 3.5rem;
+    /* Large and bold for SEO */
     font-weight: 800;
-    letter-spacing: -0.02em;
-    max-width: 800px;
-    line-height: 1.1;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    /* Optional: gives it that "Garage" feel */
+    color: var(--text-primary);
 }
 
 .text-accent {
-    color: var(--accent);
+    color: #E31E24;
+    /* Your RPM Red */
 }
 
 .hero-subtitle {
     font-size: 1.25rem;
-    font-weight: 300;
-    color: var(--text-secondary);
+    /* Much smaller than the headline */
+    font-weight: 400;
+    color: #cccccc;
     max-width: 600px;
+    margin: 0 auto 30px;
+    /* Centers the text and adds space before button */
+    line-height: 1.6;
+}
+
+.trust-indicator {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    opacity: 0.8;
+}
+
+.stars {
+    color: #ffcc00;
+    /* Gold stars for that premium Dubai feel */
 }
 
 .hero-cta {
