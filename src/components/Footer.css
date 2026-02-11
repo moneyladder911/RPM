@@ -100,7 +100,14 @@
     .floating-whatsapp {
         bottom: 1.5rem;
         right: 1.5rem;
-        padding: 0.6rem 1.2rem;
-        font-size: 0.9rem;
+        padding: 0.8rem;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+    }
+
+    .floating-whatsapp span {
+        display: none;
     }
 }
