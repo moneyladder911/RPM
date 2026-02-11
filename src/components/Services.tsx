@@ -1,4 +1,4 @@
-import { Wrench, Monitor, ShieldCheck, ThermometerSnowflake, ArrowRight, Truck, Battery, Zap } from 'lucide-react';
+import { Wrench, ShieldCheck, ThermometerSnowflake, Truck, Battery, Zap, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './Services.css';
 
