@@ -29,7 +29,7 @@ const Footer = () => {
                         <div className="contact-item">
                             <Phone size={20} className="icon" />
                             <span>+971 54 724 2806</span>
-                            <span>rpm@rpmautogarage.net</span>
+                            <span>sajjadkhadim216@gmail.com</span>
                         </div>
                         <div className="contact-item social-links">
                             <a href="https://www.facebook.com/p/RPM-Auto-Garage-100084915835831/" target="_blank" rel="noopener noreferrer" className="social-link facebook">
