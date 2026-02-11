@@ -31,6 +31,12 @@ const Footer = () => {
                             <span>+971 54 724 2806</span>
                             <span>rpm@rpmautogarage.net</span>
                         </div>
+                        <div className="contact-item social-links">
+                            <a href="https://www.facebook.com/p/RPM-Auto-Garage-100084915835831/" target="_blank" rel="noopener noreferrer" className="social-link facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                <span>Follow us on Facebook</span>
+                            </a>
+                        </div>
                     </div>
 
                     <div className="footer-map">
@@ -49,7 +55,7 @@ const Footer = () => {
 
             <div className="footer-bottom">
                 <div className="container">
-                    <p>&copy; {new Date().getFullYear()} RPM Auto Garage LLC. All rights reserved.</p>
+                    <p>&copy; 2022 RPM Auto Garage LLC. All rights reserved.</p>
                 </div>
             </div>
 

@@ -56,6 +56,36 @@ const Trust = () => {
             car: "Car Owner",
             text: "Took a cars to garage and I have vary good experience owner is vary sincere and price is vary reasonable a bit far from Marina it's worth it.",
             stars: 5
+        },
+        {
+            name: "Roland Ochavillo",
+            car: "BMW 420i Owner",
+            text: "I brought my BMW 420i 2017 model for a brake problem. They did a very good job on my car!",
+            stars: 5
+        },
+        {
+            name: "Abdulla Hiqbal",
+            car: "Car Owner",
+            text: "Really excellent service. You can trust Mr. Sajjad, a really genuine mechanical expert. visited today to change brake pads and was very impressed.",
+            stars: 5
+        },
+        {
+            name: "DJ Juan Garcia",
+            car: "Local Guide",
+            text: "The best garage in DIP! Mr. Sajjad and his team will solve any problem with any car. I'm very grateful to them.",
+            stars: 5
+        },
+        {
+            name: "Manish Nair",
+            car: "Local Guide",
+            text: "Recently had AC compressor issues. Sajjad and his team came in handy, did a good job, and further helped deliver the car. They are a good friendly team.",
+            stars: 5
+        },
+        {
+            name: "Syed Shahzaib",
+            car: "Car Owner",
+            text: "RPM Auto Garage LLC delivered outstanding service from start to finish. The team was professional, knowledgeable, and transparent throughout. My car was repaired perfectly and on time.",
+            stars: 5
         }
     ];
 

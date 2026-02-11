@@ -22,15 +22,16 @@
     align-items: center;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: var(--text-primary);
+.logo-link {
+    display: flex;
+    align-items: center;
 }
 
-.logo-accent {
-    color: var(--accent);
+.logo-img {
+    height: 60px;
+    /* Adjusted size for visibility */
+    width: auto;
+    object-fit: contain;
 }
 
 .nav {
