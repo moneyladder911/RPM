@@ -28,6 +28,8 @@ const Header = () => {
                     <nav className={`nav ${menuOpen ? 'open' : ''}`}>
                          <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
                          <a href="#reviews" onClick={() => setMenuOpen(false)}>Reviews</a>
+                         <a href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a>
+                         <a href="#booking" onClick={() => setMenuOpen(false)}>Appointments</a>
                          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
                     </nav>
 
