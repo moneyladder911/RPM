@@ -37,9 +37,8 @@
     max-width: 100%;
     height: auto;
     object-fit: contain;
-    /* Adjust height as needed, e.g., max-height: 120px */
-    max-height: 100px;
-    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.8));
+    max-height: 200px;
+    filter: brightness(1.2) drop-shadow(0 0 20px rgba(0, 0, 0, 0.8));
     transition: transform 0.3s ease;
 }
 
@@ -76,6 +75,6 @@
     }
 
     .brand-banner-img {
-        max-height: 80px;
+        max-height: 120px;
     }
 }

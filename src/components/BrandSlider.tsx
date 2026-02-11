@@ -6,7 +6,7 @@ const BrandSlider = () => {
         <section id="brands" className="brand-section">
             <div className="container">
                 <div className="brand-header">
-                    <h3 className="section-title">Luxury Makes We Service</h3>
+                    <h3 className="section-title">BRANDS WE MASTER</h3>
                     <p className="section-subtitle">
                         Certified expertise for the world's finest German engineering.
                     </p>
